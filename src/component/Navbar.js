@@ -1,0 +1,27 @@
+import React from "react";
+
+function Navbar() {
+  return (
+    <div className="w-full flex justify-around   align-middle p-2">
+      <div className="flex-none flex justify-center align-middle">
+        <h2 className="text-3xl font-bold p-4 hover:cursor-pointer text-blue-800 ">TrueCertifyer</h2>
+
+        <div className="flex-auto flex-row">
+          {/* <ul className="flex flex-1 justify-evenly">
+            <li>About</li>
+            <li>Team</li>
+            <li>Thinking..</li>
+          </ul> */}
+        </div>
+      </div>
+
+      <div>
+        <button className="flex-1 border-blue-600 border-2 rounded-md p-2 pl-4 pr-4 mt-2  hover:bg-blue-600 hover:text-white">
+          Login / Register
+        </button>
+      </div>
+    </div>
+  );
+}
+
+export default Navbar;

@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap');
+
+body{
+  /* background-image : url('https://cdn.pixabay.com/photo/2016/01/08/18/37/plaster-1128958_960_720.jpg'); */
+  font-family: 'Poppins', sans-serif;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+}
 .App {
   text-align: center;
 }
