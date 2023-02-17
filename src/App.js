@@ -6,6 +6,7 @@ import Footer from "./component/Footer";
 import LandingSVG from "./component/LandingSVG";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Login from "./component/Login";
+import Student from "./component/Student";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             <Route index element={<LandingPage />} /> 
           </Route>
           <Route path="/login" element={<Login />}/>
-          
+          <Route path="/student" element={<Student />} />
         </Routes>
 
         <Footer />
