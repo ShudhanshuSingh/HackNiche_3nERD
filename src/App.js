@@ -7,6 +7,7 @@ import LandingSVG from "./component/LandingSVG";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Login from "./component/Login";
 import Student from "./component/Student";
+import PrevReqCert from "./component/PrevReqCert";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           </Route>
           <Route path="/login" element={<Login />}/>
           <Route path="/student" element={<Student />} />
+          <Route path="/student/prevLog" element={<PrevReqCert />} />
         </Routes>
 
         <Footer />
