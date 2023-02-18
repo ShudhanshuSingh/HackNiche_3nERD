@@ -2,18 +2,18 @@
 
 
 ## Features
-+Users can apply for an e-certificate to the particular
++ Users can apply for an e-certificate to the particular
 institution/organization.
-+The institution/organization should verify the
++ The institution/organization should verify the
 application by accepting/rejecting the application.
-+The approved certificate's serial number should be
++ The approved certificate's serial number should be
 recorded and stored on the blockchain.
-+Upon approval of the certificate, the user should
++ Upon approval of the certificate, the user should
 receive a serial number and QR code.
-+So, if the user submits the serial number/QR code to
++ So, if the user submits the serial number/QR code to
 any organization, the organization can then verify
 whether the certificate is valid or not.
-+If a user submits a certificate containing serial number
++ If a user submits a certificate containing serial number
 or QR code, the organization can report that particular
 user.
 
