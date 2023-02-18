@@ -17,11 +17,11 @@ import { ethers } from 'ethers';
 import { addCertificate } from "./web3";
 
 function App() {
-  useEffect(() => {
-  // console.log(loginUser('shudh@tcet.in', 'pass234'));
-  // blockchainCreateAcc();
-  addCertificate("Vivek Mishra", "105", "Information Techology Engineering", 1676672012, "BE", "0x361A408956b36bE951B2e05E5Cf47C857ED43aF7")
-}, []);
+//   useEffect(() => {
+//   console.log(loginUser('shudh@tcet.in', 'pass234'));
+//   blockchainCreateAcc();
+//   addCertificate("Vivek Mishra", "105", "Information Techology Engineering", 1676672012, "BE", "0x361A408956b36bE951B2e05E5Cf47C857ED43aF7")
+// }, []);
 
 
 
